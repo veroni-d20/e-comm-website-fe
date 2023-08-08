@@ -6,12 +6,11 @@ import {
   Nav,
   Navbar,
   Container,
-  NavDropdown,
+  Offcanvas,
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../assets/logo.png";
 
 export default function Login() {
