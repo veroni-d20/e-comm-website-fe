@@ -2,7 +2,7 @@ import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import logo from "../assets/logo.png";
+import logo from "../assets/images/logo.png";
 
 export default function Menubar() {
   return (

@@ -1,7 +1,7 @@
 import { Button, Card, Form, FloatingLabel } from "react-bootstrap";
 import Menubar from "../components/Menubar";
 
-export default function Login() {
+export default function Signup() {
   return (
     <>
       <div className="vh-100" style={{ background: "#f1e1de" }}>
@@ -13,14 +13,14 @@ export default function Login() {
               src="https://i.pinimg.com/originals/18/e1/d0/18e1d00d1b72badba290af183b8ebaeb.png"
             />
             <Card.Body>
-              <Card.Title className="my-2">Login</Card.Title>
+              <Card.Title className="my-2">Signup</Card.Title>
               <div className="my-3">
                 <FloatingLabel
                   controlId="floatingInput"
-                  label="Email or Phone number"
+                  label="Password"
                   className="my-3"
                 >
-                  <Form.Control type="text" />
+                  <Form.Control type="password" />
                 </FloatingLabel>
                 <Button
                   className="p-2 w-100"
@@ -30,13 +30,13 @@ export default function Login() {
                     border: "none",
                   }}
                 >
-                  CONTINUE
+                  Submit
                 </Button>
                 <div className="mt-3 text-center">
                   <p>
-                    Don't have an account?{" "}
-                    <a href="/register" style={{ color: "black" }}>
-                      Sign up
+                    Already have an account?{" "}
+                    <a href="/login" style={{ color: "black" }}>
+                      Login
                     </a>
                   </p>
                 </div>
